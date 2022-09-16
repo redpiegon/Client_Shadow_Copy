@@ -3,7 +3,7 @@ Get-Variable -Exclude PWD,*Preference | Remove-Variable -EA 0
 
 [string]$ShadowsDate=Get-Date -Format "ddMMyyyy"
 
-# Gün içerinde Sadece 1 Kere Çalışması için Register üzerinde gerekli kontrolleri yapmaktadir.
+# Gün içerinde Sadece 1 Kere Çalışması için Register üzerinde gerekli kontrolleri yapıyoruz.
 $RegisterCheckFolder=Test-Path -Path "HKLM:\SYSTEM\ShadowCopy"
 
 # Yukarıda Belirtilen Regedit Yolunun olup olmadığını kontrol ediyoruz.

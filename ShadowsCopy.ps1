@@ -1,4 +1,4 @@
-﻿# Havızada Duran Tüm Değişkenleri Siliyoruz.
+﻿# Hafızada Duran Tüm Değişkenleri Siliyoruz.
 Get-Variable -Exclude PWD,*Preference | Remove-Variable -EA 0
 
 [string]$ShadowsDate=Get-Date -Format "ddMMyyyy"
